@@ -66,6 +66,12 @@
       "relation": "manyToMany",
       "target": "api::partner.partner",
       "mappedBy": "products"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::categorie.categorie",
+      "mappedBy": "products"
     }
   }
 }
