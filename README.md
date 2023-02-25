@@ -1,0 +1,2 @@
+# studenthuntcms
+studenthunt strapi cms
