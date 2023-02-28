@@ -10,12 +10,12 @@ module.exports = ({ env }) => ({
         defaultReplyTo: "juliasedefdjian@strapi.io",
         testAddress: "gocha.berulava@gmail.com",
       },
-      "routes": [
+      routes: [
         {
-          "method": "POST",
-          "path": "/email",
-          "handler": "Email.send",
-          "config": {
+          method: "POST",
+          path: "/email",
+          handler: "Email.send",
+          config: {
             "policies": []
           }
         },
