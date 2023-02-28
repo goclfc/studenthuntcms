@@ -10,6 +10,16 @@ module.exports = ({ env }) => ({
         defaultReplyTo: "juliasedefdjian@strapi.io",
         testAddress: "gocha.berulava@gmail.com",
       },
+      "routes": [
+        {
+          "method": "POST",
+          "path": "/email",
+          "handler": "Email.send",
+          "config": {
+            "policies": []
+          }
+        },
+      ],
     },
   },
   upload: {
