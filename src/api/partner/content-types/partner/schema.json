@@ -52,10 +52,10 @@
     "logoUrl": {
       "type": "string"
     },
-    "products": {
+    "categories": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::product.product",
+      "target": "api::categorie.categorie",
       "inversedBy": "partners"
     },
     "users_permissions_users": {
