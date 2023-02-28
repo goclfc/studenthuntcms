@@ -63,6 +63,12 @@
       "relation": "manyToMany",
       "target": "plugin::users-permissions.user",
       "inversedBy": "partners"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "partners"
     }
   }
 }
