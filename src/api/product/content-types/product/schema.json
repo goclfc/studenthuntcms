@@ -72,6 +72,18 @@
       "relation": "manyToMany",
       "target": "api::partner.partner",
       "mappedBy": "products"
+    },
+    "baners": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::baner.baner",
+      "mappedBy": "products"
+    },
+    "groups": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::group.group",
+      "mappedBy": "products"
     }
   }
 }
