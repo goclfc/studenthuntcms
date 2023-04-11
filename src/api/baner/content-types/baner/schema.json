@@ -4,7 +4,8 @@
   "info": {
     "singularName": "baner",
     "pluralName": "baners",
-    "displayName": "baner"
+    "displayName": "baner",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,20 +13,24 @@
   "pluginOptions": {},
   "attributes": {
     "baner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "products": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product.product",
       "inversedBy": "baners"
+    },
+    "info": {
+      "type": "string"
     }
   }
 }
