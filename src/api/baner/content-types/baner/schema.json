@@ -31,6 +31,9 @@
     },
     "info": {
       "type": "string"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
